@@ -7,6 +7,10 @@
 	position:absolute;
 	right:250px;
 }
+.showcase.active{
+    position:absolute;
+    right:300px;
+}
 .relative{
 	position:relative;
 }
@@ -20,7 +24,7 @@
 }
 .absolute2{
 	position:absolute;
-	top:170px;
+	top:145px;
 	left:10px;
 	background:url("drivein2.png");
 	width:150px;
@@ -35,12 +39,12 @@ img{
 	padding:0;
 	background-repeat:no-repeat;
 }
-ul{
+.sns{
 	position:absolute;
 	top:0;
 	right:0;
-	width:300;
-	height:100%;
-	display:flex;
 	z-index:-1;
+}
+ul{
+
 }
