@@ -9,7 +9,7 @@
 }
 .showcase.active{
     position:absolute;
-    right:300px;
+    right:150px;
 }
 .relative{
 	position:relative;
@@ -19,16 +19,16 @@
 	top:px;
 	right:0px;
 	background:url("sns.png");
-	width:230px;
-	height:460px;
+	width:290px;
+	height:570px;
 }
 .absolute2{
 	position:absolute;
-	top:145px;
+	top:175px;
 	left:10px;
 	background:url("drivein2.png");
-	width:150px;
-	height:250px;
+	width:220px;
+	height:400px;
 }
 
 video{
@@ -38,6 +38,7 @@ img{
 	margin:0;
 	padding:0;
 	background-repeat:no-repeat;
+    width:50px
 }
 img2{
     margin:0;
@@ -50,5 +51,11 @@ img2{
 	position:absolute;
 	top:0;
 	right:0;
-	z-index:-1;
+    width:300px;
+    height:100px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    z-index:-1;
+    list-style:none;
 }
