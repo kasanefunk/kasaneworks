@@ -7,7 +7,7 @@
 	position:absolute;
 	right:250px;
 }
-.showcase.active{
+.showcase{
     position:absolute;
     right:150px;
 }
@@ -16,7 +16,7 @@
 }
 .absolute{
 	position:absolute;
-	top:px;
+	top:0px;
 	right:0px;
 	background:url("sns.png");
 	width:290px;
@@ -57,4 +57,9 @@ img2{
     justify-content:space-around;
     z-index:-1;
     list-style:none;
+}
+.drive-in {
+	position: relative;
+	top: 100px;
+	left: 100px;
 }
