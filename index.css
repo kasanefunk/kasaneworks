@@ -11,15 +11,11 @@
 	top:0px;
 	right:0px;
 	background:url("sns.png");
-	width:290px;
-	height:570px;
+    height:40px;
 }
 video{
 	max-width:100%;
 }
 img{
-	margin:0;
-	padding:0;
 	background-repeat:no-repeat;
-    width:50px
 }
